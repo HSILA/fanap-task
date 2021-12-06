@@ -45,6 +45,7 @@ So `{ "x":4, "y":-5, "width":2, "height":2, "time":"2021-12-06 03:38:13" }` will
 ### Response Example
 If we call get on the same endpoint, we will get the following response on previous inputs:
 ```
+GET http://127.0.0.1:5000/
 [
    {"x":-1, "y":-1, "width":5, "height":4, "time":"2021-12-06 01:47:55"},
    {"x":4, "y":-5, "width":2, "height":2, "time":"2021-12-06 03:38:13"}
