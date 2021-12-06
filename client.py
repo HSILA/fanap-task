@@ -11,7 +11,6 @@ def post_request(json):
 def get_request():
     result = requests.get(ENDPOINT)
     print(result.json())
-    print(result.headers)
 
 if __name__ == '__main__':
     ex1 = {
@@ -29,5 +28,5 @@ if __name__ == '__main__':
                     {"x": 9, "y": 10, "width": 5, "height": 4}
             ]
         }
-    post_request(ex2)
+    # post_request(ex2)
     get_request()
